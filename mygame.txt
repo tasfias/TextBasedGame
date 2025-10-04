@@ -1,0 +1,63 @@
+player:Moonlight
+map:m1
+
+room:r1,Grocers,Your regular grocery shop. It is open 24/7.,false
+item:i1,butter,A stick of butter for buttercream,false
+item:i2,eggs,A pack of eggs,false
+exit:e1,east,A door to the east,r2,false
+exit:e2,south,A door to the south,r10,false
+
+room:r2,Pens&Pencils,A stationary shop. It smells nice.,false
+equipment:eq1,scissors,Some sharp scissors.,false,open,b1,eq2,You use the scissors to cut open the box. You tip it over and something falls out.
+exit:e3,west,A door to the west,r1,false
+exit:e4,south,A door to the south,r1,false
+exit:e5,east,A door to the east,r3,false
+
+room:r3,Clothez,A clothing shop. The owner is close friends with the owner of 'Sweetie'.,false
+equipment:eq2,key,A rusty old key.,true,open,l1,i5,You open the locker and find the sweets you need.
+container:b1,box,A cardboard box.,false
+exit:e6,west,A door to the west,r2,false
+exit:e7,south,A door to the south,r1,false
+exit:e8,east,A door to the east,r4,false
+
+room:r4,Crunch,A shop full of tasty chocolate. It may be tempting to take a few...,false
+item:i3,chocolate,A bar of tempting chocolate.,false
+exit:e9,west,A door to the west,r3,false
+exit:e10,south,A door to the south,r1,false
+exit:e11,east,A door to the east,r5,false
+
+room:r5,LoveReading,A bookstore. Luckily you are not in need of a recipe book.,false
+exit:e12,west,A door to the west,r4,false
+exit:e13,south,A door to the south,r6,false
+
+room:r6,Syrupy,A luxury syrup shop. These syrups are used in the most delicate of desserts.,false
+item:i4,syrup,A bottle of golden syrup.,false
+exit:e14,west,A door to the west,r7,false
+exit:e15,north,A door to the north,r5,false
+
+room:r7,Fine Liquor,A luxury liquor shop. Rumour has it that the owner tends to be quite forgetful...,false
+equipment:eq3,code,The code needed for the safe.,false,open,s1,i1,You open the safe and find the liquor you need.
+container:s1,safe,A safe that unlocks with a code.,false
+item:i4,liquor,A bottle of cherry liquor.,true
+item:p1,poster,A poster with a peculiar acrostic poem - 'Dreaming Of Novel Unity Today'. You can safely assume that 'DONUT' is a code of some sort.,false
+exit:e16,west,A door to the west,r8,false
+exit:e17,north,A door to the north,r4,false
+exit:e18,east,A door to the east,r6,false
+
+room:r8,Sweetie,A shop full of the tastiest sweets fit for the perfect toppings for any dessert.,false
+container:l1,locker,A locker that you have been informed locks away the special sweets you need...,false
+item:i5,sweets,A large packet of various sweets.,true
+exit:e19,west,A door to the west,r9,false
+exit:e20,north,A door to the north,r3,false
+exit:e21,east,A door to the east,r7,false
+
+room:r9,STyle,A luxury clothing shop. You probably couldn't afford these clothes whether you took a look or not.,false
+exit:e22,west,A door to the west,r10,false
+exit:e23,north,A door to the north,r2,false
+exit:e24,east,A door to the east,r8,false
+
+room:r10,Groceries4U,A small grocery shop. It's nice and empty at this time of day.,false
+item:i6,cream,A pot of cream for buttercream.,false
+item:i7,sugar,A bag of sugar.,false
+exit:e25,east,A door to the east,r9,false
+exit:e26,north,A door to the north,r1,false
