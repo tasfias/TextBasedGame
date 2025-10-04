@@ -48,7 +48,7 @@ public class Game {
         tokeniser = new Tokeniser();
 
         //get the file from directory and parse it
-        String fileName = "/jupyter/work/tts440/data/mygame.txt";
+        String fileName = "mygame.txt";
         gameState = GameStateFileParser.parse(fileName);
 
         System.out.println("Game loaded successfully."); //make player aware that gameState has been parsed correctly
